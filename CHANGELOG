@@ -1,0 +1,126 @@
+# CHANGELOG   
+
+## v1.0.2 
+1. Fixed class name from here-content to hero-content
+2. Remove unnecessary variable in walker menu
+
+
+## v1.0.1 
+1. Update LICENSE from MIT to GNU General Public License v2.0
+
+
+## v1.0.0
+1. Update readme.md Method and Classes summary    
+2. Modify template news section   
+3. Fixed charlength is not working in starter_get_the_excerpt
+4. Add starter_the_excerpt
+5. Add Blog default stylesheet
+6. Update Archive.php and index.php
+7. Update Search query
+8. Update Home and News template
+9. Fixed Schema error for google schema structure
+10. Remove unnecessary variable in the walker menu
+11. Remove unnecessary files
+12. Fixed admin_notice duplicate error
+13. Add responsive stylesheet
+14. Add allow shortcode in the Contact form 7 
+15. Fixed third-party directory path in the autoloader
+
+
+## v0.2.9
+1. Add article tag in the error 404
+2. Modify bootstrap4 skin text to uppercase
+3. Add Bootstrap4 sitemap template
+3. Add Bootstrap4 contact template
+4. Change default style - h1 tag and main-content padding
+5. Add Disable jetpack sharing button
+6. Remove text in the post view
+7. Add rel attribute in the a tag
+8. Remove unnecessary variable
+9. Moved error404 stylesheet main.css to 404.php
+10. Add script_loader_tag async and crossorigin
+11. Add Google Maps Styling Wizard Standard - Standard, Silver, Retro, Dark, Night and aubergine
+12. Update jquery core version
+
+
+## v0.2.8
+1. Remove default option in the image and upload class
+2. Fixed youtube oEmbed parameter is not working
+3. Add remove the menu item from the admin bar and change the howdy text
+4. Add remove admin bar based on user role
+5. Add regular expression if youtube embed has not parameter
+6. Add option value all or array to post type support
+7. Add option value all or array to mata box
+8. Updated for metabox removal and posttype suppot
+9. Fixed Missing argument error on class
+10. Fixed Invalid argument supplied for foreach in admin bar
+11. Add starter_get_the_id function for current post, page and taxonomy id
+12. Add notes to admin bar default menu
+13. Add news feed template
+14. Change default layout style
+15. Modify declare method in breadcrumb
+
+
+## v0.2.7
+1. Fixed breadcrumb - Breadcrumb is based on permalink structure
+2. Change breadcrumb default style
+3. Add post navigation   
+4. Change default prefix of constant
+5. Add breadcrumb function
+6. Add remove a metabox, feature and widget from the admin area
+7. Disable admin notice message and update core, plugin, theme message
+8. Add starter_sidebar options in the class
+9. Add starter_Video options in the class
+10. Add starter_Image options in the class
+11. Add starter_Upload options in the class and Replace default prefix format to username-time.
+12. Update readme.md Class API
+
+
+## v0.2.6
+1. Add hero content
+2. Move breadcrumb under the hero content
+3. Changed default markup 
+
+
+## v0.2.5
+1. Edit text a readme.md   
+2. Edit browser upgrade message and noscript warning message   
+3. Add fixed-navbar
+4. Add conditional tag to breadcrumb
+5. Add init_hooks in class-starter.php
+6. Add default search form markup for bootstrap4
+7. Move breadcrumb from header tag to article tag
+8. Change archive and search page markup
+9. Remove sidebar-1.php and sidebar-2.php
+10. Add starter_get_sidebar helper 
+11. Change widget title from H1 to H3
+12. Add footer widget-area
+13. Add default layout
+
+
+## v0.2.4
+1. Change theme name
+2. Add bootstrap4 directory in includes folder   
+
+
+## v0.2.3
+1. Add Search form in Navbar
+
+
+## v0.2.2
+1. Add Microdata in the Navbar
+2. Add has-children class in the Navbar
+
+
+## v0.2.1
+- Remove unnecessary function
+
+
+## v0.2.0
+1. Add Navbar
+2. Add Starter_Walker_Menu_Bootstrap4
+3. Default jquery script move from header to footer
+
+
+## v0.1.0
+- Based on the WP-Starter-Theme

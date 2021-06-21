@@ -1,0 +1,40 @@
+/* Viewport additional helpers */
+.vw-25 { width: 25vw !important; }
+.vw-50 { width: 50vw !important; }
+.vw-75 { width: 75vw !important; }
+.vh-25 { height: 25vh !important; }
+.vh-50 { height: 50vh !important; }
+.vh-75 { height: 75vh !important; }
+
+/* disabled */
+a.disabled { pointer-events: none; cursor: default; color: #6c757d; }
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 { font-family: "Playfair Display", Georgia, "Times New Roman", serif; }
+
+/* Fixed Jetpack statistics image */
+img#wpstats { overflow: hidden; width: 0; height: 0; }
+img#wpstats { visibility: hidden; }
+
+/* Fixed Slick Slider */
+.slick-list, .slick-track { width: 100%; height: 100%; }
+
+/* Fixed Adminbar */
+html.navbar-fixed { margin-top: 0 !important; }
+html.navbar-fixed body.admin-bar .navbar.fixed-top { margin-top: 32px; }
+
+/* layout */
+.hero-content .carousel-item { background-attachment: fixed; background-position: center; background-repeat: no-repeat; background-size: cover; position: relative; }
+.main-content { min-height: 80vh; }
+.site-footer {color: #737373;text-align: center;background-color: #333;/* border-top: .05rem solid #e5e5e5; */}
+.site-footer a{color:#999999;}
+
+/* page-title */
+#secondary + #primary .page-title.display-1, #secondary + #primary .entry-title.display-1 { margin-top: -15px; }
+
+/* error404 */
+.error404 .site-footer { display: none; }
+
+/* post-meta */
+.entry-meta { margin-bottom: 1.25rem; color: #999; }
+
