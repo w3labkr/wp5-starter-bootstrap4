@@ -22,7 +22,7 @@
         </div>
         <div class="site-copyright p-3 text-center">
             <div class="container">
-                <?php printf( 'Copyright(c) <span itemprop="copyrightYear">%1$s</span> by <span itemprop="copyrightHolder" itemscope itemtype="http://schema.org/Person"><a href="%3$s" target="_blank"><span itemprop="name">%2$s</span></a></span>.', '2019', 'Krescentmoon', 'https://github.com/krescentmoon/wp-starter-bootstrap4' ); ?>
+                <?php printf( 'Copyright(c) <span itemprop="copyrightYear">%1$s</span> by <span itemprop="copyrightHolder" itemscope itemtype="http://schema.org/Person"><a href="%3$s" target="_blank"><span itemprop="name">%2$s</span></a></span>.', '2019', 'w3labkr', 'https://github.com/w3labkr/wp-starter-bootstrap4' ); ?>
             </div>
         </div>
     </footer><!-- #colophon -->

@@ -8,7 +8,7 @@
 
 get_header();
 ?>
-    
+
     <div class="main-content">
 
         <div id="primary" class="content-area order-0 order-sm-1 p-0">
@@ -24,7 +24,7 @@ get_header();
                     </div>
                     <footer class="page-footer mt-auto mb-3">
                         <div class="site-copyright text-center">
-                            <?php printf( 'Copyright(c) <span itemprop="copyrightYear">%1$s</span> by <span itemprop="copyrightHolder" itemscope itemtype="http://schema.org/Person"><a href="%3$s" target="_blank"><span itemprop="name">%2$s</span></a></span>.', '2019', 'Krescentmoon', 'https://github.com/krescentmoon/wp-starter-bootstrap4' ); ?>
+                            <?php printf( 'Copyright(c) <span itemprop="copyrightYear">%1$s</span> by <span itemprop="copyrightHolder" itemscope itemtype="http://schema.org/Person"><a href="%3$s" target="_blank"><span itemprop="name">%2$s</span></a></span>.', '2019', 'w3labkr', 'https://github.com/w3labkr/wp-starter-bootstrap4' ); ?>
                         </div>
                     </footer>
                 </article>
@@ -33,7 +33,7 @@ get_header();
         </div><!-- #primary -->
 
     </div><!-- .main-content -->
-    
-<?php 
-get_footer(); 
+
+<?php
+get_footer();
 ?>

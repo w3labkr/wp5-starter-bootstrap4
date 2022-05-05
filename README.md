@@ -1,19 +1,16 @@
-# WP Starter Bootstrap4   
-This is a WordPress starter theme built for developers.    
-And based on the [WP-Starter-Theme](https://github.com/krescentmoon/wp-starter-theme).      
-
-## Demo   
-[Demo](https://wp-starter-bootstrap4.krescentmoon.com/)   
+# WP Starter Bootstrap4
+This is a WordPress starter theme built for developers.
+And based on the [WP-Starter-Theme](https://github.com/w3labkr/wp-starter-theme).
 
 
-## Feature   
+## Feature
 
 bootstrap4, one-column, two-columns, three-columns, left-sidebar, right-sidebar, microdata, schema, post-views, embed-youtube-parameter, w3-validator, auto-enqueue-script-versioning, clean-menu-class, change-upload-filename, browser-upgrade-message, noscript-warning-message, fixed-navbar, breadcrumb, post-navigation, custom-post-type-support-by-template
 
 
 
-## Theme Structure    
-``` 
+## Theme Structure
+```
 o
 `-- wp-starter-theme/
     |-- assets/
@@ -39,47 +36,47 @@ o
     |-- modules/
     |-- template-parts/
     `-- template-posts/
-```   
+```
 
-## Outline   
-Markup Validation Service is based on [Nu Html Checker](https://validator.w3.org).    
+## Outline
+Markup Validation Service is based on [Nu Html Checker](https://validator.w3.org).
 
-### Heading-level Outline   
+### Heading-level Outline
 ```
 o
 `-- h1 Site Title
     |-- h2 Site Navigation
-    |-- h2 Breadcrumb Navigation   
+    |-- h2 Breadcrumb Navigation
     |-- h2 Secondary
-    |   `-- h3 Site Sidebar Widget 1   
+    |   `-- h3 Site Sidebar Widget 1
     |-- h2 Primary
     |   |-- h3 Section
     |   |-- h3 Comments
     |   `-- h3 Pager
     `-- h2 Tertiary
         `-- h3 Site Sidebar Widget 2
-```   
+```
 
-### Structural Outline    
+### Structural Outline
 ```
 o
 `-- Site Title
     |-- Site Navigation
-    |-- Breadcrumb Navigation   
+    |-- Breadcrumb Navigation
     |-- Secondary
-    |   `-- Site Sidebar Widget 1   
+    |   `-- Site Sidebar Widget 1
     |-- Primary
     |   |-- Section
     |   |-- Comments
     |   `-- Pager
     `-- Tertiary
         `-- Site Sidebar Widget 2
-```   
+```
 
-## Methods Summary   
+## Methods Summary
 
 | Function                      | Parameter                                                      | Description                            |
-|-------------------------------|----------------------------------------------------------------|----------------------------------------|
+| ----------------------------- | -------------------------------------------------------------- | -------------------------------------- |
 | starter_enqueue_style         | $handle, $src='', $deps=array(), $version='', $media='all'     | Last modified time as version to css   |
 | starter_enqueue_script        | $handle, $src='', $deps=array(), $version='', $in_footer=false | Last modified time as version to js    |
 | starter_set_post_view         |                                                                | Set post views for track               |
@@ -97,10 +94,10 @@ o
 | starter_array_sort            | $array, $field, $order=SORT_ASC                                | Array Sort for php                     |
 
 
-## Classes Summary   
+## Classes Summary
 
-| ﻿Class                              | Description                                                   |
-|------------------------------------|---------------------------------------------------------------|
+| Class                              | Description                                                   |
+| ---------------------------------- | ------------------------------------------------------------- |
 | Starter                            | WP Starter Theme's Class                                      |
 | Starter_Autoloader                 | Registers a function to be autoloaded.                        |
 | Starter_Breadcrumb                 | Displays a Breadcrumb based on permalink structure            |
@@ -135,23 +132,23 @@ o
 | Starter_Bootstrap4_Search_Form     | Generate custom search form for bootstrap4                    |
 
 
-## Support Browser    
-IE10+, Edge, Chrome, Firefox, Opera, Safari   
+## Support Browser
+IE10+, Edge, Chrome, Firefox, Opera, Safari
 
 
-## Changelog   
+## Changelog
 Please see [CHANGELOG](/CHANGELOG) for more information what has changed recently.
 
 
 
-## License   
+## License
 The GNU General Public License v2.0. Please see [License File](/LICENSE) for more information.
 
 
-## Reference   
-[HTML5 BOILERPLATE](https://html5boilerplate.com/)   
-[Schema.org](https://schema.org/)   
-[Markup Validation Service](https://validator.w3.org/)   
-[Underscores](https://underscores.me/)   
-[HTML5 Starter Template](https://github.com/krescentmoon/html5-starter-template)   
-[WP Starter Theme](https://github.com/krescentmoon/wp-starter-theme)   
+## Reference
+[HTML5 BOILERPLATE](https://html5boilerplate.com/)
+[Schema.org](https://schema.org/)
+[Markup Validation Service](https://validator.w3.org/)
+[Underscores](https://underscores.me/)
+[HTML5 Starter Template](https://github.com/w3labkr/html5-starter-template)
+[WP Starter Theme](https://github.com/w3labkr/wp-starter-theme)
